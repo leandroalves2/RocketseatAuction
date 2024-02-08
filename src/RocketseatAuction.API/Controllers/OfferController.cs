@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RocketseatAuction.API.Comunication.Requests;
-using RocketseatAuction.API.Entities;
 using RocketseatAuction.API.Filters;
 using RocketseatAuction.API.UseCases.Offers.CreateOffer;
 
