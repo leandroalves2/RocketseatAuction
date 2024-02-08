@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="UseCases\Auctions\NovaPasta\**" />
+    <Content Remove="UseCases\Auctions\NovaPasta\**" />
+    <EmbeddedResource Remove="UseCases\Auctions\NovaPasta\**" />
+    <None Remove="UseCases\Auctions\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Controllers\WeatherForecastController.cs" />
     <Compile Remove="WeatherForecast.cs" />
   </ItemGroup>
@@ -16,6 +23,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Comunication\Responses\" />
   </ItemGroup>
 
 </Project>
