@@ -1,6 +1,7 @@
 # NLW Expert - Trilha de C#
 
-Participei do evento NLW Expert trilha de C# da Rocketseat. Durante o evento, desenvolvemos uma aplicação back-end em C# utilizando o framework .NET. Os principais conteúdos abordados incluíram:
+Participei do evento NLW Expert trilha de C# da Rocketseat, criando uma API para criar seu próprio leilão. 
+Durante o evento, desenvolvemos uma aplicação back-end em C# utilizando o framework .NET. Os principais conteúdos abordados incluíram:
 
 ## Conteúdos
 
